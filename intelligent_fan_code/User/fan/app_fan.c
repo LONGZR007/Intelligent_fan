@@ -252,6 +252,7 @@ void IR_Deal_Task(void)
 			
 			func_countdown_upload();         // 向云端推送数据
 			func_countdown_left_upload();    // 向云端推送数据
+			func_switch_upload();            // 向云端推送数据
 		}
 	}
 	
